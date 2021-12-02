@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+import Tasks from "./components/Tasks";
+import { useState } from "react"
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello From React</h1>
+      <Header />
+      <Tasks />
     </div>
   );
 }
